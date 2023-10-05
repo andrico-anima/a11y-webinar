@@ -1,0 +1,19 @@
+.user-image {
+  background-position: 50% 50%;
+  background-size: cover;
+  position: relative;
+}
+
+.user-image.size-0-large {
+  background-image: url(../../../static/img/rectangle-1.png);
+  border-radius: var(--tokens-spacing-system-radius-radius-md);
+  height: 120px;
+  width: 120px;
+}
+
+.user-image.size-0-small {
+  background-image: url(../../../static/img/rectangle-2-11.png);
+  border-radius: var(--tokens-spacing-system-radius-radius-lg);
+  height: 24px;
+  width: 24px;
+}

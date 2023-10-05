@@ -1,0 +1,208 @@
+:root {
+  --heading-lg-font-family: "Poppins-SemiBold", Helvetica;
+  --heading-lg-font-size: 36px;
+  --heading-lg-font-style: normal;
+  --heading-lg-font-weight: 600;
+  --heading-lg-letter-spacing: 0px;
+  --heading-lg-line-height: normal;
+  --heading-md-font-family: "Poppins-SemiBold", Helvetica;
+  --heading-md-font-size: 32px;
+  --heading-md-font-style: normal;
+  --heading-md-font-weight: 600;
+  --heading-md-letter-spacing: 0px;
+  --heading-md-line-height: normal;
+  --heading-sm-font-family: "Poppins-SemiBold", Helvetica;
+  --heading-sm-font-size: 20px;
+  --heading-sm-font-style: normal;
+  --heading-sm-font-weight: 600;
+  --heading-sm-letter-spacing: 0px;
+  --heading-sm-line-height: normal;
+  --primitives-boolean-alert: initial;
+  --primitives-color-base-black: rgba(45, 45, 45, 1);
+  --primitives-color-base-bright-gray: rgba(239, 239, 239, 1);
+  --primitives-color-base-dark-gray: rgba(55, 55, 55, 1);
+  --primitives-color-base-white: rgba(255, 255, 255, 1);
+  --primitives-color-blue-blue-100: rgba(178, 197, 255, 1);
+  --primitives-color-blue-blue-200: rgba(150, 176, 255, 1);
+  --primitives-color-blue-blue-300: rgba(115, 150, 255, 1);
+  --primitives-color-blue-blue-400: rgba(86, 128, 255, 1);
+  --primitives-color-blue-blue-50: rgba(213, 224, 255, 1);
+  --primitives-color-blue-blue-500: rgba(51, 102, 255, 1);
+  --primitives-color-blue-blue-600: rgba(50, 92, 220, 1);
+  --primitives-color-blue-blue-700: rgba(49, 83, 185, 1);
+  --primitives-color-blue-blue-800: rgba(48, 74, 150, 1);
+  --primitives-color-blue-blue-900: rgba(47, 64, 115, 1);
+  --primitives-color-gray-gray-100: rgba(208, 208, 208, 1);
+  --primitives-color-gray-gray-200: rgba(167, 167, 167, 1);
+  --primitives-color-gray-gray-300: rgba(127, 127, 127, 1);
+  --primitives-color-gray-gray-400: rgba(86, 86, 86, 1);
+  --primitives-color-gray-gray-50: rgba(229, 229, 229, 1);
+  --primitives-color-gray-gray-500: rgba(59, 59, 59, 1);
+  --primitives-color-green-green-100: rgba(203, 233, 228, 1);
+  --primitives-color-green-green-200: rgba(152, 212, 201, 1);
+  --primitives-color-green-green-300: rgba(102, 190, 175, 1);
+  --primitives-color-green-green-400: rgba(51, 169, 148, 1);
+  --primitives-color-green-green-50: rgba(229, 244, 242, 1);
+  --primitives-color-green-green-500: rgba(0, 147, 121, 1);
+  --primitives-color-green-green-600: rgba(8, 130, 108, 1);
+  --primitives-color-green-green-700: rgba(15, 113, 96, 1);
+  --primitives-color-green-green-800: rgba(23, 96, 83, 1);
+  --primitives-color-green-green-900: rgba(30, 79, 70, 1);
+  --primitives-color-yellow-yellow-100: rgba(253, 243, 220, 1);
+  --primitives-color-yellow-yellow-200: rgba(251, 233, 186, 1);
+  --primitives-color-yellow-yellow-300: rgba(250, 224, 159, 1);
+  --primitives-color-yellow-yellow-400: rgba(248, 213, 126, 1);
+  --primitives-color-yellow-yellow-50: rgba(255, 252, 247, 1);
+  --primitives-color-yellow-yellow-500: rgba(247, 204, 99, 1);
+  --primitives-color-yellow-yellow-600: rgba(213, 177, 90, 1);
+  --primitives-color-yellow-yellow-700: rgba(180, 151, 81, 1);
+  --primitives-color-yellow-yellow-800: rgba(146, 125, 72, 1);
+  --primitives-color-yellow-yellow-900: rgba(112, 98, 63, 1);
+  --primitives-spacing-0: 0px;
+  --primitives-spacing-1: 2px;
+  --primitives-spacing-2: 4px;
+  --primitives-spacing-3: 8px;
+  --primitives-spacing-4: 12px;
+  --primitives-spacing-5: 16px;
+  --primitives-spacing-6: 20px;
+  --primitives-spacing-7: 24px;
+  --text-bold-lg-font-family: "Poppins-SemiBold", Helvetica;
+  --text-bold-lg-font-size: 18px;
+  --text-bold-lg-font-style: normal;
+  --text-bold-lg-font-weight: 600;
+  --text-bold-lg-letter-spacing: 0px;
+  --text-bold-lg-line-height: normal;
+  --text-bold-md-font-family: "Poppins-SemiBold", Helvetica;
+  --text-bold-md-font-size: 16px;
+  --text-bold-md-font-style: normal;
+  --text-bold-md-font-weight: 600;
+  --text-bold-md-letter-spacing: 0px;
+  --text-bold-md-line-height: 24px;
+  --text-bold-sm-font-family: "Poppins-SemiBold", Helvetica;
+  --text-bold-sm-font-size: 14px;
+  --text-bold-sm-font-style: normal;
+  --text-bold-sm-font-weight: 600;
+  --text-bold-sm-letter-spacing: 0px;
+  --text-bold-sm-line-height: normal;
+  --text-bold-xs-font-family: "Poppins-Medium", Helvetica;
+  --text-bold-xs-font-size: 12px;
+  --text-bold-xs-font-style: normal;
+  --text-bold-xs-font-weight: 500;
+  --text-bold-xs-letter-spacing: 0px;
+  --text-bold-xs-line-height: normal;
+  --text-regular-lg-font-family: "Poppins-Regular", Helvetica;
+  --text-regular-lg-font-size: 18px;
+  --text-regular-lg-font-style: normal;
+  --text-regular-lg-font-weight: 400;
+  --text-regular-lg-letter-spacing: 0px;
+  --text-regular-lg-line-height: normal;
+  --text-regular-md-font-family: "Poppins-Regular", Helvetica;
+  --text-regular-md-font-size: 16px;
+  --text-regular-md-font-style: normal;
+  --text-regular-md-font-weight: 400;
+  --text-regular-md-letter-spacing: 0px;
+  --text-regular-md-line-height: normal;
+  --text-regular-sm-font-family: "Poppins-Regular", Helvetica;
+  --text-regular-sm-font-size: 14px;
+  --text-regular-sm-font-style: normal;
+  --text-regular-sm-font-weight: 400;
+  --text-regular-sm-letter-spacing: 0px;
+  --text-regular-sm-line-height: normal;
+  --text-regular-xs-font-family: "Poppins-Regular", Helvetica;
+  --text-regular-xs-font-size: 12px;
+  --text-regular-xs-font-style: normal;
+  --text-regular-xs-font-weight: 400;
+  --text-regular-xs-letter-spacing: 0px;
+  --text-regular-xs-line-height: 16px;
+  --tokens-color-accent-primary: var(--primitives-color-yellow-yellow-100);
+  --tokens-color-background: var(--primitives-color-base-bright-gray);
+  --tokens-color-button-bg-disabled: var(--primitives-color-gray-gray-100);
+  --tokens-color-button-bg-primary: var(--primitives-color-green-green-500);
+  --tokens-color-button-bg-primary-hover: var(--primitives-color-green-green-700);
+  --tokens-color-button-bg-secondary: var(--primitives-color-green-green-100);
+  --tokens-color-button-bg-secondary-hover: var(--primitives-color-green-green-200);
+  --tokens-color-button-label-primary: var(--primitives-color-base-white);
+  --tokens-color-button-label-secondary: var(--primitives-color-green-green-500);
+  --tokens-color-divider-primary: var(--primitives-color-gray-gray-100);
+  --tokens-color-progress-primary: var(--primitives-color-blue-blue-500);
+  --tokens-color-progress-secondary: var(--primitives-color-gray-gray-50);
+  --tokens-color-surface-primary: var(--primitives-color-base-white);
+  --tokens-color-surface-primary-hover: var(--primitives-color-green-green-50);
+  --tokens-color-tag-bg-primary: var(--primitives-color-blue-blue-50);
+  --tokens-color-tag-bg-secondary: var(--primitives-color-yellow-yellow-500);
+  --tokens-color-tag-label-primary: var(--primitives-color-blue-blue-500);
+  --tokens-color-tag-label-secondary: var(--primitives-color-base-black);
+  --tokens-color-text-primary: var(--primitives-color-base-black);
+  --tokens-color-text-secondary: var(--primitives-color-gray-gray-400);
+  --tokens-color-text-tertiary: var(--primitives-color-gray-gray-200);
+  --tokens-spacing-system-gaps-gap-2xl: var(--primitives-spacing-7);
+  --tokens-spacing-system-gaps-gap-lg: var(--primitives-spacing-5);
+  --tokens-spacing-system-gaps-gap-md: var(--primitives-spacing-4);
+  --tokens-spacing-system-gaps-gap-none: var(--primitives-spacing-0);
+  --tokens-spacing-system-gaps-gap-sm: var(--primitives-spacing-3);
+  --tokens-spacing-system-gaps-gap-xl: var(--primitives-spacing-6);
+  --tokens-spacing-system-gaps-gap-xs: var(--primitives-spacing-2);
+  --tokens-spacing-system-gaps-gap-xxs: var(--primitives-spacing-1);
+  --tokens-spacing-system-radius-radius-lg: var(--primitives-spacing-6);
+  --tokens-spacing-system-radius-radius-md: var(--primitives-spacing-3);
+  --tokens-spacing-system-radius-radius-none: var(--primitives-spacing-0);
+  --tokens-spacing-system-radius-radius-sm: var(--primitives-spacing-2);
+  --tokens-spacing-system-spacing-lg: var(--primitives-spacing-5);
+  --tokens-spacing-system-spacing-md: var(--primitives-spacing-4);
+  --tokens-spacing-system-spacing-none: var(--primitives-spacing-0);
+  --tokens-spacing-system-spacing-sm: var(--primitives-spacing-3);
+  --tokens-spacing-system-spacing-xl: var(--primitives-spacing-6);
+  --tokens-spacing-system-spacing-xs: var(--primitives-spacing-2);
+  --tokens-spacing-system-spacing-xxs: var(--primitives-spacing-1);
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-tokens-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-tokens-mode="light"] {
+  --tokens-color-accent-primary: var(--primitives-color-yellow-yellow-100);
+  --tokens-color-background: var(--primitives-color-base-bright-gray);
+  --tokens-color-button-bg-disabled: var(--primitives-color-gray-gray-100);
+  --tokens-color-button-bg-primary-hover: var(--primitives-color-green-green-700);
+  --tokens-color-button-bg-secondary: var(--primitives-color-green-green-100);
+  --tokens-color-button-bg-secondary-hover: var(--primitives-color-green-green-200);
+  --tokens-color-button-label-secondary: var(--primitives-color-green-green-500);
+  --tokens-color-divider-primary: var(--primitives-color-gray-gray-100);
+  --tokens-color-progress-secondary: var(--primitives-color-gray-gray-50);
+  --tokens-color-surface-primary: var(--primitives-color-base-white);
+  --tokens-color-surface-primary-hover: var(--primitives-color-green-green-50);
+  --tokens-color-tag-bg-primary: var(--primitives-color-blue-blue-50);
+  --tokens-color-tag-label-primary: var(--primitives-color-blue-blue-500);
+  --tokens-color-text-primary: var(--primitives-color-base-black);
+  --tokens-color-text-secondary: var(--primitives-color-gray-gray-400);
+  --tokens-color-text-tertiary: var(--primitives-color-gray-gray-200);
+}
+
+[data-tokens-mode="dark"] {
+  --tokens-color-accent-primary: var(--primitives-color-yellow-yellow-900);
+  --tokens-color-background: var(--primitives-color-base-dark-gray);
+  --tokens-color-button-bg-disabled: var(--primitives-color-gray-gray-400);
+  --tokens-color-button-bg-primary-hover: var(--primitives-color-green-green-400);
+  --tokens-color-button-bg-secondary: var(--primitives-color-green-green-800);
+  --tokens-color-button-bg-secondary-hover: var(--primitives-color-green-green-600);
+  --tokens-color-button-label-secondary: var(--primitives-color-green-green-100);
+  --tokens-color-divider-primary: var(--primitives-color-gray-gray-500);
+  --tokens-color-progress-secondary: var(--primitives-color-gray-gray-500);
+  --tokens-color-surface-primary: var(--primitives-color-base-black);
+  --tokens-color-surface-primary-hover: var(--primitives-color-green-green-900);
+  --tokens-color-tag-bg-primary: var(--primitives-color-blue-blue-500);
+  --tokens-color-tag-label-primary: var(--primitives-color-base-white);
+  --tokens-color-text-primary: var(--primitives-color-base-white);
+  --tokens-color-text-secondary: var(--primitives-color-gray-gray-100);
+  --tokens-color-text-tertiary: var(--primitives-color-gray-gray-300);
+  --tokens-color-text-four: var(--primitives-color-gray-gray-400);
+}

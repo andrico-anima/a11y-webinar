@@ -1,0 +1,322 @@
+.course-card {
+  align-items: flex-start;
+  background-color: var(--tokens-color-surface-primary);
+  border-radius: var(--tokens-spacing-system-radius-radius-md);
+  display: flex;
+  position: relative;
+}
+
+.course-card .image {
+  align-self: stretch;
+  height: 200px;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.course-card .title-description {
+  align-items: flex-start;
+  align-self: stretch;
+  border-radius: var(--tokens-spacing-system-radius-radius-sm);
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--tokens-spacing-system-gaps-gap-xs);
+  position: relative;
+  width: 100%;
+}
+
+.course-card .title {
+  align-self: stretch;
+  color: var(--tokens-color-text-primary);
+  font-family: var(--text-bold-lg-font-family);
+  font-size: var(--text-bold-lg-font-size);
+  font-style: var(--text-bold-lg-font-style);
+  font-weight: var(--text-bold-lg-font-weight);
+  letter-spacing: var(--text-bold-lg-letter-spacing);
+  line-height: var(--text-bold-lg-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.course-card .description {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
+  color: var(--tokens-color-text-secondary);
+  display: -webkit-box;
+  font-family: var(--text-regular-sm-font-family);
+  font-size: var(--text-regular-sm-font-size);
+  font-style: var(--text-regular-sm-font-style);
+  font-weight: var(--text-regular-sm-font-weight);
+  letter-spacing: var(--text-regular-sm-letter-spacing);
+  line-height: var(--text-regular-sm-line-height);
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.course-card .frame {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.course-card .user-info {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  position: relative;
+  width: 107px;
+}
+
+.course-card .user-details {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  position: relative;
+}
+
+.course-card .text-wrapper-2 {
+  color: var(--tokens-color-text-tertiary);
+  font-family: "Poppins", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.course-card .john-doe {
+  color: var(--tokens-color-text-primary);
+  font-family: "Poppins", Helvetica;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 19.2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.course-card .tag-instance {
+  display: inline-flex !important;
+  flex: 0 0 auto !important;
+}
+
+.course-card .button-instance {
+  align-self: stretch !important;
+  display: flex !important;
+  width: 100% !important;
+}
+
+.course-card .frame-2 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: var(--tokens-spacing-system-gaps-gap-xs);
+  position: relative;
+  width: 100%;
+}
+
+.course-card .instance-node {
+  display: flex !important;
+  flex: 1 !important;
+  flex-grow: 1 !important;
+}
+
+.course-card .button-with-icon {
+  align-items: center;
+  background-color: var(--tokens-color-button-bg-secondary);
+  border-radius: var(--tokens-spacing-system-radius-radius-md);
+  display: flex;
+  gap: 6.4px;
+  height: 40px;
+  justify-content: center;
+  padding: 9.6px var(--tokens-spacing-system-gaps-gap-xl) 9.6px var(--tokens-spacing-system-gaps-gap-xl);
+  position: relative;
+  transition: all 0.3s ease;
+  width: 40px;
+}
+
+.course-card .icon-for-button {
+  height: 24px !important;
+  margin-bottom: -1.6px !important;
+  margin-left: -12px !important;
+  margin-right: -12px !important;
+  margin-top: -1.6px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.course-card .tag-2 {
+  left: 20px !important;
+  position: absolute !important;
+  top: 20px !important;
+}
+
+.course-card .tag-3 {
+  left: 20px !important;
+  position: absolute !important;
+  top: 180px !important;
+}
+
+.course-card .img {
+  flex: 1;
+  flex-grow: 1;
+  height: 274px;
+  min-width: 320px;
+  object-fit: cover;
+  position: relative;
+}
+
+.course-card .course-details {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  min-width: 320px;
+  padding: var(--tokens-spacing-system-gaps-gap-xl);
+  position: relative;
+}
+
+.course-card .div-2 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: var(--tokens-spacing-system-gaps-gap-sm);
+  position: relative;
+  width: 100%;
+}
+
+.course-card .tag-4 {
+  flex: 0 0 auto !important;
+}
+
+.course-card .course-info {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--tokens-spacing-system-gaps-gap-lg);
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.course-card .headline-description {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: var(--tokens-spacing-system-gaps-gap-xs);
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+.course-card .learn-react {
+  align-self: stretch;
+  color: var(--tokens-color-text-primary);
+  font-family: var(--heading-md-font-family);
+  font-size: var(--heading-md-font-size);
+  font-style: var(--heading-md-font-style);
+  font-weight: var(--heading-md-font-weight);
+  letter-spacing: var(--heading-md-letter-spacing);
+  line-height: var(--heading-md-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.course-card .p {
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  align-self: stretch;
+  color: var(--tokens-color-text-secondary);
+  display: -webkit-box;
+  font-family: var(--text-regular-lg-font-family);
+  font-size: var(--text-regular-lg-font-size);
+  font-style: var(--text-regular-lg-font-style);
+  font-weight: var(--text-regular-lg-font-weight);
+  letter-spacing: var(--text-regular-lg-letter-spacing);
+  line-height: var(--text-regular-lg-line-height);
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.course-card .user-info-2 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.course-card .text-wrapper-3 {
+  color: var(--tokens-color-text-tertiary);
+  font-family: var(--text-regular-md-font-family);
+  font-size: var(--text-regular-md-font-size);
+  font-style: var(--text-regular-md-font-style);
+  font-weight: var(--text-regular-md-font-weight);
+  letter-spacing: var(--text-regular-md-letter-spacing);
+  line-height: var(--text-regular-md-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.course-card .john-doe-2 {
+  color: var(--tokens-color-text-primary);
+  font-family: var(--text-regular-md-font-family);
+  font-size: var(--text-regular-md-font-size);
+  font-style: var(--text-regular-md-font-style);
+  font-weight: var(--text-regular-md-font-weight);
+  letter-spacing: var(--text-regular-md-letter-spacing);
+  line-height: var(--text-regular-md-line-height);
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.course-card.type-default {
+  flex-direction: column;
+  gap: var(--tokens-spacing-system-gaps-gap-md);
+  padding: var(--tokens-spacing-system-gaps-gap-md);
+  width: 320px;
+}
+
+.course-card.type-highlighted {
+  flex-wrap: wrap;
+  gap: var(--tokens-spacing-system-gaps-gap-none);
+  justify-content: center;
+  overflow: hidden;
+  width: 974px;
+}
+
+.course-card .state-2-default {
+  background-color: var(--tokens-color-surface-primary);
+  gap: var(--primitives-spacing-4);
+}
+
+.course-card .state-2-hover {
+  align-self: stretch;
+  gap: var(--tokens-spacing-system-gaps-gap-md);
+  justify-content: center;
+}

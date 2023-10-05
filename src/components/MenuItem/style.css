@@ -1,0 +1,81 @@
+.menu-item {
+  align-items: center;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+}
+
+.menu-item .subjects {
+  margin-top: -2px;
+  position: relative;
+  width: fit-content;
+}
+
+.menu-item.clicked {
+  border-color: var(--tokens-color-button-bg-primary);
+}
+
+.menu-item.secondary {
+  border-left-style: solid;
+  border-left-width: 2px;
+  padding: var(--tokens-spacing-system-gaps-gap-sm) var(--tokens-spacing-system-gaps-gap-xl)
+    var(--tokens-spacing-system-gaps-gap-sm) var(--tokens-spacing-system-gaps-gap-xl);
+}
+
+.menu-item.hover {
+  border-color: var(--tokens-color-surface-primary);
+}
+
+.menu-item.default {
+  border-color: var(--tokens-color-surface-primary);
+}
+
+.menu-item.primary {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding: var(--tokens-spacing-system-gaps-gap-xl);
+}
+
+.menu-item.clicked .subjects {
+  color: var(--tokens-color-button-bg-primary);
+  font-family: var(--text-bold-sm-font-family);
+  font-size: var(--text-bold-sm-font-size);
+  font-style: var(--text-bold-sm-font-style);
+  font-weight: var(--text-bold-sm-font-weight);
+  letter-spacing: var(--text-bold-sm-letter-spacing);
+  line-height: var(--text-bold-sm-line-height);
+}
+
+.menu-item.hover .subjects {
+  color: var(--tokens-color-button-bg-primary);
+  font-family: var(--text-bold-sm-font-family);
+  font-size: var(--text-bold-sm-font-size);
+  font-style: var(--text-bold-sm-font-style);
+  font-weight: var(--text-bold-sm-font-weight);
+  letter-spacing: var(--text-bold-sm-letter-spacing);
+  line-height: var(--text-bold-sm-line-height);
+}
+
+.menu-item.primary .subjects {
+  font-family: var(--text-bold-sm-font-family);
+  font-size: var(--text-bold-sm-font-size);
+  font-style: var(--text-bold-sm-font-style);
+  font-weight: var(--text-bold-sm-font-weight);
+  letter-spacing: var(--text-bold-sm-letter-spacing);
+  line-height: var(--text-bold-sm-line-height);
+}
+
+.menu-item.default.secondary .subjects {
+  color: var(--tokens-color-text-four);
+  font-family: var(--text-regular-sm-font-family);
+  font-size: var(--text-regular-sm-font-size);
+  font-style: var(--text-regular-sm-font-style);
+  font-weight: var(--text-regular-sm-font-weight);
+  letter-spacing: var(--text-regular-sm-letter-spacing);
+  line-height: var(--text-regular-sm-line-height);
+}
+
+.menu-item.default.primary .subjects {
+  color: var(--tokens-color-text-primary);
+}

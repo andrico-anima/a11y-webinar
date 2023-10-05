@@ -1,0 +1,158 @@
+.button {
+  all: unset;
+  align-items: center;
+  border-radius: var(--tokens-spacing-system-radius-radius-md);
+  box-sizing: border-box;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.button .label {
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.button.state-0-clicked {
+  background-color: var(--tokens-color-button-bg-primary);
+}
+
+.button.large {
+  height: 40px;
+}
+
+.button.state-0-disabled {
+  background-color: var(--tokens-color-button-bg-disabled);
+}
+
+.button.small {
+  height: 24px;
+}
+
+.button.type-0-secondary {
+  gap: var(--tokens-spacing-system-spacing-xs);
+}
+
+.button.type-0-primary {
+  gap: var(--tokens-spacing-system-spacing-xs);
+}
+
+.button.type-0-tertiary {
+  border: 1px solid;
+  border-color: var(--tokens-color-button-bg-primary);
+  gap: var(--tokens-spacing-system-gaps-gap-xxs);
+}
+
+.button.large.type-0-secondary {
+  padding: var(--tokens-spacing-system-spacing-sm) var(--tokens-spacing-system-gaps-gap-xl)
+    var(--tokens-spacing-system-spacing-sm) var(--tokens-spacing-system-gaps-gap-xl);
+}
+
+.button.state-0-default.type-0-primary {
+  background-color: var(--tokens-color-button-bg-primary);
+}
+
+.button.large.type-0-primary {
+  padding: var(--tokens-spacing-system-spacing-sm) var(--tokens-spacing-system-spacing-xl)
+    var(--tokens-spacing-system-spacing-sm) var(--tokens-spacing-system-spacing-xl);
+}
+
+.button.state-0-default.type-0-secondary {
+  background-color: var(--tokens-color-button-bg-secondary);
+}
+
+.button.state-0-hover.type-0-primary {
+  background-color: var(--tokens-color-button-bg-primary-hover);
+}
+
+.button.state-0-hover.type-0-secondary {
+  background-color: var(--tokens-color-button-bg-secondary-hover);
+}
+
+.button.small.type-0-tertiary {
+  padding: var(--tokens-spacing-system-gaps-gap-xs) var(--tokens-spacing-system-gaps-gap-sm)
+    var(--tokens-spacing-system-gaps-gap-xs) var(--tokens-spacing-system-gaps-gap-sm);
+}
+
+.button.type-0-tertiary.large {
+  padding: var(--tokens-spacing-system-gaps-gap-xs) var(--tokens-spacing-system-gaps-gap-xl)
+    var(--tokens-spacing-system-gaps-gap-xs) var(--tokens-spacing-system-gaps-gap-xl);
+}
+
+.button.small.type-0-primary {
+  padding: var(--tokens-spacing-system-spacing-sm);
+}
+
+.button.small.type-0-secondary {
+  padding: var(--tokens-spacing-system-spacing-sm);
+}
+
+.button.state-0-hover.type-0-tertiary {
+  background-color: var(--tokens-color-button-bg-secondary);
+}
+
+.button.state-0-clicked .label {
+  color: var(--tokens-color-button-label-primary);
+}
+
+.button.large .label {
+  font-family: var(--text-bold-sm-font-family);
+  font-size: var(--text-bold-sm-font-size);
+  font-style: var(--text-bold-sm-font-style);
+  font-weight: var(--text-bold-sm-font-weight);
+  letter-spacing: var(--text-bold-sm-letter-spacing);
+  line-height: var(--text-bold-sm-line-height);
+}
+
+.button.small .label {
+  font-family: var(--text-bold-xs-font-family);
+  font-size: var(--text-bold-xs-font-size);
+  font-style: var(--text-bold-xs-font-style);
+  font-weight: var(--text-bold-xs-font-weight);
+  letter-spacing: var(--text-bold-xs-letter-spacing);
+  line-height: var(--text-bold-xs-line-height);
+}
+
+.button.type-0-primary .label {
+  color: var(--tokens-color-button-label-primary);
+}
+
+.button.state-0-default.type-0-secondary .label {
+  color: var(--tokens-color-button-label-secondary);
+}
+
+.button.type-0-tertiary.state-0-disabled .label {
+  color: var(--tokens-color-text-tertiary);
+}
+
+.button.state-0-hover.type-0-secondary .label {
+  color: var(--tokens-color-button-label-secondary);
+}
+
+.button.small.type-0-tertiary .label {
+  margin-top: -2px;
+}
+
+.button.state-0-default.type-0-tertiary .label {
+  color: var(--tokens-color-button-label-secondary);
+}
+
+.button.small.type-0-primary .label {
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.button.small.type-0-secondary .label {
+  margin-bottom: -4px;
+  margin-top: -6px;
+}
+
+.button.state-0-disabled.type-0-secondary .label {
+  color: var(--tokens-color-text-tertiary);
+}
+
+.button.state-0-hover.type-0-tertiary .label {
+  color: var(--tokens-color-button-label-secondary);
+}

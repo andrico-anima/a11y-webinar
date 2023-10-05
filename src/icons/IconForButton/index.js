@@ -1,0 +1,1 @@
+export { IconForButton } from "./IconForButton";

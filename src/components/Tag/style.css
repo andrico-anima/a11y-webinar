@@ -1,0 +1,91 @@
+.tag {
+  align-items: center;
+  border-radius: var(--tokens-spacing-system-radius-radius-md);
+  display: var(--primitives-boolean-alert, inline-flex);
+  height: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.tag .text-wrapper {
+  color: var(--tokens-color-tag-label-primary);
+  font-family: var(--text-bold-xs-font-family);
+  font-size: var(--text-bold-xs-font-size);
+  font-style: var(--text-bold-xs-font-style);
+  font-weight: var(--text-bold-xs-font-weight);
+  letter-spacing: var(--text-bold-xs-letter-spacing);
+  line-height: var(--text-bold-xs-line-height);
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tag .icon-for-tag {
+  height: 10px !important;
+  position: relative !important;
+  width: 10px !important;
+}
+
+.tag .lesson-number {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 2px;
+  justify-content: center;
+  position: relative;
+}
+
+.tag .div {
+  color: var(--tokens-color-tag-label-primary);
+  font-family: var(--text-bold-xs-font-family);
+  font-size: var(--text-bold-xs-font-size);
+  font-style: var(--text-bold-xs-font-style);
+  font-weight: var(--text-bold-xs-font-weight);
+  letter-spacing: var(--text-bold-xs-letter-spacing);
+  line-height: var(--text-bold-xs-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tag .icon-for-tag-2 {
+  height: 9.64px !important;
+  position: relative !important;
+  width: 10px !important;
+}
+
+.tag .element {
+  color: var(--tokens-color-tag-label-secondary);
+  font-family: var(--text-bold-xs-font-family);
+  font-size: var(--text-bold-xs-font-size);
+  font-style: var(--text-bold-xs-font-style);
+  font-weight: var(--text-bold-xs-font-weight);
+  letter-spacing: var(--text-bold-xs-letter-spacing);
+  line-height: var(--text-bold-xs-line-height);
+  margin-top: -2px;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+}
+
+.tag.rating {
+  background-color: var(--tokens-color-tag-bg-secondary);
+  gap: var(--tokens-spacing-system-gaps-gap-xxs);
+  padding: var(--tokens-spacing-system-gaps-gap-xs) var(--tokens-spacing-system-gaps-gap-sm)
+    var(--tokens-spacing-system-gaps-gap-xs) var(--tokens-spacing-system-gaps-gap-sm);
+}
+
+.tag.lessons {
+  background-color: var(--tokens-color-tag-bg-primary);
+  gap: var(--tokens-spacing-system-gaps-gap-sm);
+  padding: var(--tokens-spacing-system-gaps-gap-xxs) var(--tokens-spacing-system-gaps-gap-sm)
+    var(--tokens-spacing-system-gaps-gap-xxs) var(--tokens-spacing-system-gaps-gap-sm);
+}
+
+.tag.category {
+  background-color: var(--tokens-color-tag-bg-primary);
+  gap: var(--tokens-spacing-system-gaps-gap-xxs);
+  padding: var(--tokens-spacing-system-gaps-gap-xxs) var(--tokens-spacing-system-gaps-gap-sm)
+    var(--tokens-spacing-system-gaps-gap-xxs) var(--tokens-spacing-system-gaps-gap-sm);
+}

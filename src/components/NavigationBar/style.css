@@ -1,0 +1,31 @@
+.navigation-bar {
+  align-items: center;
+  background-color: var(--tokens-color-surface-primary);
+  border-radius: var(--tokens-spacing-system-radius-radius-md);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px 4px;
+  justify-content: space-between;
+  padding: var(--tokens-spacing-system-gaps-gap-none) var(--tokens-spacing-system-gaps-gap-xl)
+    var(--tokens-spacing-system-gaps-gap-none) var(--tokens-spacing-system-gaps-gap-xl);
+  position: relative;
+  width: 1200px;
+}
+
+.navigation-bar .logo {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.navigation-bar .menu-items {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: var(--tokens-spacing-system-gaps-gap-none);
+  justify-content: flex-end;
+  position: relative;
+}
+
+.navigation-bar .menu-item-instance {
+  flex: 0 0 auto !important;
+}
